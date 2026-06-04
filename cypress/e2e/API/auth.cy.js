@@ -1,5 +1,6 @@
 import { apiData, authHeader } from "../../test-data/apiData";
 
+// getting API base URL from Cypress environment variables
 const apiUrl = () => Cypress.env("apiUrl");
 
 describe("Auth API", () => {

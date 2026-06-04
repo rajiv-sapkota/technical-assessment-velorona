@@ -1,6 +1,7 @@
 const apiUrl = () => Cypress.env("apiUrl");
 
 describe("Products API", () => {
+  
   beforeEach(() => {
     cy.apiLogin();
   });

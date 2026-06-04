@@ -3,6 +3,7 @@ import { apiData, authHeader } from "../../test-data/apiData";
 const apiUrl = () => Cypress.env("apiUrl");
 
 describe("Users API", () => {
+  
   beforeEach(() => {
     cy.apiLogin();
   });

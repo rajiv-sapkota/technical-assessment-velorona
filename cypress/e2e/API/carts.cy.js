@@ -1,6 +1,8 @@
 const apiUrl = () => Cypress.env("apiUrl");
 
 describe("Carts API", () => {
+  
+  // Ensure we have a valid token before each test
   beforeEach(() => {
     cy.apiLogin();
   });
