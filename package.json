@@ -1,8 +1,6 @@
 {
   "devDependencies": {
     "@faker-js/faker": "^10.4.0",
-    "allure": "^3.0.0",
-    "allure-cypress": "^3.0.0",
     "cypress": "^15.16.0",
     "dotenv": "^17.4.2"
   },
